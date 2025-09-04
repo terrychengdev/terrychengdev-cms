@@ -12,7 +12,13 @@
   "pluginOptions": {},
   "attributes": {
     "about": {
-      "type": "blocks"
+      "type": "richtext"
+    },
+    "design": {
+      "type": "richtext"
+    },
+    "engineering": {
+      "type": "richtext"
     }
   }
 }
