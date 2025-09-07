@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project_title": {
+      "type": "string",
+      "required": true
+    },
+    "url_slug": {
+      "type": "uid",
+      "targetField": "project_title"
+    },
+    "thumbnail_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "project_scrope": {
+      "type": "component",
+      "component": "work.project-scope",
+      "repeatable": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "challenge": {
+      "type": "richtext",
+      "required": true
+    },
+    "solution": {
+      "type": "richtext",
+      "required": false
+    },
+    "showcase_images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
