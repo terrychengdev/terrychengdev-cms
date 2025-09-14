@@ -28,7 +28,7 @@
         "files"
       ]
     },
-    "project_scrope": {
+    "project_scope": {
       "type": "component",
       "component": "work.project-scope",
       "repeatable": true

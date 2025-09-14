@@ -456,7 +456,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::work.work'> &
       Schema.Attribute.Private;
-    project_scrope: Schema.Attribute.Component<'work.project-scope', true>;
+    project_scope: Schema.Attribute.Component<'work.project-scope', true>;
     project_title: Schema.Attribute.String & Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
     showcase_images: Schema.Attribute.Media<

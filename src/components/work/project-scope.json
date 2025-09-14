@@ -1,8 +1,8 @@
 {
   "collectionName": "components_work_project_scopes",
   "info": {
-    "displayName": "Project Scope",
-    "icon": "bulletList"
+    "displayName": "project_scope",
+    "icon": "puzzle"
   },
   "options": {},
   "attributes": {

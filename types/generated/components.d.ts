@@ -3,8 +3,8 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface WorkProjectScope extends Struct.ComponentSchema {
   collectionName: 'components_work_project_scopes';
   info: {
-    displayName: 'Project Scope';
-    icon: 'bulletList';
+    displayName: 'project_scope';
+    icon: 'puzzle';
   };
   attributes: {
     scope_name: Schema.Attribute.String;
