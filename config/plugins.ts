@@ -1,4 +1,4 @@
-export default () => ({
+export default ({ env }) => ({
   upload: {
     provider: 'local', // or your current provider
     providerOptions: {
